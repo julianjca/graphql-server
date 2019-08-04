@@ -22,4 +22,4 @@ BookModel.belongsTo(AuthorModel);
 const Author = db.models.author;
 const Book = db.models.book;
 
-module.exports = { Author, Book };
+module.exports = { AuthorModel, BookModel, Author, Book };

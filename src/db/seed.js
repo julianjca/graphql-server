@@ -1,5 +1,13 @@
+const Sequelize = require('sequelize');
 const casual = require('casual');
 const _ = require('lodash');
+
+const { AuthorModel, BookModel } = require('../store');
+
+const db = new Sequelize('coolreads', null, null, {
+  dialect: 'sqlite',
+  storage: './coolreads.sqlite',
+});
 
 // create mock data with a seed, so we always get the same
 casual.seed(123);

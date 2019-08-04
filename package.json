@@ -13,7 +13,8 @@
     "sqlite": "^3.0.3"
   },
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "seed": "node ./src/db/seed.js"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
