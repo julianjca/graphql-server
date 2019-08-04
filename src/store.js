@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
-const casual = require('casual');
-const _ = require('lodash');
+// const casual = require('casual');
+// const _ = require('lodash');
 
 const db = new Sequelize('coolreads', null, null, {
   dialect: 'sqlite',
