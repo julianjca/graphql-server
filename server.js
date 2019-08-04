@@ -1,5 +1,4 @@
 const { ApolloServer, gql } = require('apollo-server');
-const { find, filter } = require('lodash');
 
 // Import Schema
 import { Author, Book } from './store';
