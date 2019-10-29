@@ -9,7 +9,7 @@
     "esm": "^3.2.25",
     "graphql": "^14.4.2",
     "lodash": "^4.17.15",
-    "sequelize": "^5.12.2",
+    "sequelize": "^5.15.1",
     "sqlite": "^3.0.3"
   },
   "scripts": {
